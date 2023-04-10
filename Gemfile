@@ -70,3 +70,9 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+##########
+# Engines
+##########
+
+gem "example-lib", path: "lib/example-lib", group: :omit
